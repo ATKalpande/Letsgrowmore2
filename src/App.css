@@ -1,38 +1,87 @@
-.App {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+
+  }
+  
+  html,
+  
+  
+  a {
+    text-decoration: none;
+  }
+  
+  
+ 
+  .btn{
+    
+    background-color: aquamarine;
+    display: inline;
+    width: fit-content;
+    border: 1px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    margin-left: 40%;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    
+
+  }
+.btn:hover{
+  background-color:violet ;
+}
+h2{
+  
+  color: rgb(184, 152, 243);
+  text-emphasis: none;
+  
   text-align: center;
+  
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  
+  header {
+    height: 200px;
+    background-color: bisque;
+    border:2px solid  #333;
+    margin-top: 12px;
+    margin-inline: 12px;
+    background-image: url("/src/img/artem-bobkov-UZiltiIXDNE-unsplash.jpg");
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  header img {
+    width: 200px;
   }
-  to {
-    transform: rotate(360deg);
+  #key{
+    padding: 12px;
+    margin-top: 12px;
   }
-}
+  
+ #ig{
+   border-radius: 122px;
+   padding:12px
+ }
+.da{
+   margin-left: 30%;
+   margin-bottom: 123px;
+
+ }
+ ul{
+   
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
+   color: aliceblue;
+   
+ }
+ 
+ body{
+  background-image: url("/src/img/hans-isaacson-nAwxD6eArhU-unsplash.jpg");
+ }
